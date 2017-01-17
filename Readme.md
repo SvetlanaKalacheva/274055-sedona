@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Svetlana Kalacheva](https://up.htmlacademy.ru/htmlcss/16/user/274055).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Рычагов](https://htmlacademy.ru/profile/id50483).
 
 ---
 
