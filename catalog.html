@@ -6,7 +6,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="catalog-header">
+      <header>
         <nav class="main-menu">
           <ul>
             <li>
@@ -31,7 +31,7 @@
         <section class="filter">
           <form class="filter-form">
             <div class="filter-block infrastructure">
-              <h2>ИНФРАСТРУКТУРА:</h2>
+              <h3>ИНФРАСТРУКТУРА:</h3>
               <input type="checkbox" name="pool" id="pool" checked>
               <label for="pool">БАССЕЙН</label>
               <input type="checkbox" name="parking" id="parking">
@@ -40,7 +40,7 @@
               <label for="wi-fi">WI-FI</label>
             </div>
             <div class="filter-block house-types">
-              <h2>ТИП ЖИЛЬЯ:</h2>
+              <h3>ТИП ЖИЛЬЯ:</h3>
               <input type="checkbox" name="hotel" id="hotel" checked>
               <label for="hotel">ГОСТИНИЦА</label>
               <input type="checkbox" name="motel" id="motel" checked>
@@ -62,7 +62,7 @@
                 <div class="range-lever lever-max"></div>
               </div>
             </div>
-            <a class="show" href="#">ПОКАЗАТЬ</a>
+            <button type="submit" class="submit-button">ПОКАЗАТЬ</button>
           </form>
         </section>
         <section class="results-header">
@@ -84,12 +84,8 @@
             </ul>
           </div>
           <div class="results-cursors">
-            <span class="cursor-up">
-              <a href="#"></a>
-            </span>
-            <span class="cursor-down">
-              <a href="#"></a>
-            </span>
+            <a class="cursor-up" href="#"></a>
+            <a class="cursor-down" href="#"></a>
           </div>
         </section>
         <section class="results">
@@ -100,11 +96,11 @@
             <div class="hotel-discription">
               <h2 class="hotel-name">AMARA RESORT & SPA</h2>
               <div class="hotel-type">
-                <p>ГОСТИНИЦА</p>
+                <div class="type">ГОСТИНИЦА</div>
                 <a href="#">ПОДРОБНЕЕ</a>
               </div>
               <div class="hotel-price">
-                <p>ОТ 3500</p>
+                <div class="price">ОТ 3500</div>
                 <a href="#">ЗАБРОНИРОВАТЬ</a>
               </div>
             </div>
@@ -120,11 +116,11 @@
             <div class="hotel-discription">
               <h2 class="hotel-name">DESERT QUAIL INN</h2>
               <div class="hotel-type">
-                <p>МОТЕЛЬ</p>
+                <div class="type">МОТЕЛЬ</div>
                 <a href="#">ПОДРОБНЕЕ</a>
               </div>
               <div class="hotel-price">
-                <p>ОТ 2000</p>
+                <div class="price">ОТ 2000</div>
                 <a href="#">ЗАБРОНИРОВАТЬ</a>
               </div>
             </div>
@@ -140,11 +136,11 @@
             <div class="hotel-discription">
               <h2 class="hotel-name">VILLAS AT POCO DIABLO</h2>
               <div class="hotel-type">
-                <p>АПАРТАМЕНТЫ</p>
+                <div class="type">АПАРТАМЕНТЫ</div>
                 <a href="#">ПОДРОБНЕЕ</a>
               </div>
               <div class="hotel-price">
-                <p>ОТ 4000</p>
+                <div class="price">ОТ 4000</div>
                 <a href="#">ЗАБРОНИРОВАТЬ</a>
               </div>
             </div>
@@ -160,15 +156,9 @@
           <a href="#">#VISITSEDONA</a>
         </div>
         <div class="socials">
-          <span class="twitter-icon">
-            <a href="#" class="social-button twitter">Twitter</a>
-          </span>
-          <span class="facebook-icon">
-            <a href="#" class="social-button facebook">Facebook</a>
-          </span>
-          <span class="youtube-icon">
-            <a href="#" class="social-button youtube">Youtube</a>
-          </span>
+          <a href="#" class="social-button twitter">Twitter</a>
+          <a href="#" class="social-button facebook">Facebook</a>
+          <a href="#" class="social-button youtube">Youtube</a>
         </div>
         <div class="copirights">
           <span class="website">WEBSITE BY</span>
