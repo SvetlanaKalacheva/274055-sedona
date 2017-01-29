@@ -1,9 +1,15 @@
+
 body {
   font-size: 14px;
   color: #000000;
   font-weight: normal;
   font-family: 'PT Sans', sans-serif;
+  background-color: #f2f2f2;
+  width: 1280px;
+  margin: 0;
+  padding: 0;
 }
+
 
 h2 {
   font-size: 21px;
@@ -15,4 +21,148 @@ h3 {
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
+}
+
+.container {
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+header {
+  min-height: 55px;
+  background-color: #ffffff;
+}
+
+.intro {
+}
+
+.feature-header {
+  min-height: 125px;
+  background-color: #ffffff;
+}
+
+.feature {
+  min-height: 255px;
+}
+
+.blue {
+  width: 400px;
+}
+
+.item-1 .blue {
+  float: left;
+}
+
+.item-1 .feature-photo {
+  float: right;
+}
+
+.bonus-block{
+min-height: 330px;
+background-color: #ffffff;
+}
+
+.bonus-item {
+  width: 400px;
+  float: left;
+}
+
+.item-2 .blue {
+  float: right;
+}
+
+.item-2 .feature-photo {
+  float: left;
+}
+
+.items-last {
+  min-height: 255px;
+  background-color: #eeeeee;
+}
+.grey {
+  width: 400px;
+  float: left;
+}
+
+.search-header {
+  min-height: 290px;
+  background-color: #ffffff;
+}
+
+.search-block {
+  width: 570px;
+  min-height: 480px;
+  background-color: #ffffff;
+}
+
+.search-block-title {
+  min-height: 87px;
+  background-color: #766357;
+}
+
+footer {
+  min-height: 120px;
+}
+
+.tag-visit-sedona {
+  width: 400px;
+  float: left;
+}
+
+.socials {
+  width: 400px;
+  float: left;
+}
+
+.copirights {
+  width: 400px;
+  float: left;
+}
+
+.filter {
+  min-height: 218px;
+}
+
+.infrastructure {
+  width: 300px;
+  float: left;
+}
+
+.house-types {
+  width: 300px;
+  float: left;
+}
+
+.prices {
+  width: 600px;
+  float: right;
+}
+
+.results-header {
+  min-height: 87px;
+}
+
+.results {
+  min-height: 455px;
+}
+
+.hotel{
+  min-height: 151px;
+}
+
+.hotel-photo {
+  width: 165px;
+  float: left;
+}
+
+.hotel-discription {
+  width: 435px;
+  float: left;
+}
+
+.rating {
+  width: 600px;
+  float: right;
 }
